@@ -25,6 +25,8 @@ body {
     color: white;
     -webkit-text-stroke: 2px black;
     text-align: center;
+    padding: 50px;
+    margin: 0%;
 }
 
 .button-a {
@@ -45,3 +47,46 @@ body {
     transform: translateY(4px);
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.border1 {
+    border: 2px solid black;
+}
+
+.chicken-h2 {
+    text-align: center;
+    margin: 0%;
+}
+
+.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+.myOL {
+    text-align: center;
+    list-style-position: inside;
+}
+
+section {
+    width: 100%;
+    height: 650px;
+    background:url(/images/bird.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.birdground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 168, 50, 0.315);
+}
